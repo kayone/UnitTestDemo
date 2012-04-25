@@ -1,0 +1,13 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="6">
+            <File firstVisibleLine="2" xOffset="0" scrollWidth="1" startPos="304" endPos="304" selMode="0" lang="XML" encoding="65001" filename="C:\Windows\Microsoft.NET\Framework\v2.0.50727\CONFIG\machine.config" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="4552" startPos="66" endPos="66" selMode="0" lang="XML" encoding="65001" filename="C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\machine.config" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="576" startPos="66" endPos="66" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\System32\drivers\etc\hosts" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1800" startPos="66" endPos="66" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Dropbox\Git\NzbDrone\readme.md" />
+            <File firstVisibleLine="3" xOffset="0" scrollWidth="920" startPos="66" endPos="66" selMode="0" lang="Ruby" encoding="-1" filename="C:\Enterprise\rakefile.rb" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1472" startPos="450" endPos="450" selMode="0" lang="XML" encoding="-1" filename="C:\Dropbox\Git\NzbDrone\NzbDrone.Services\NzbDrone.Services.Service\Web.Stage.config" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
