@@ -1,11 +1,10 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FileCatalog")]
+[assembly: AssemblyTitle("FileCatalog.Tests")]
 [assembly: AssemblyDescription("Demo Code from VancouverTechFest 2012")]
 [assembly: AssemblyProduct("FileCatalog")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
@@ -16,7 +15,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b7d42adf-06f9-4558-8d7a-3e23b86bd47f")]
+[assembly: Guid("4d326ba0-e63b-41bc-b972-f1e88f924d90")]
 
 // Version information for an assembly consists of the following four values:
 //

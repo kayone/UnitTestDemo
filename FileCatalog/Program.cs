@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
@@ -16,8 +17,8 @@ namespace FileCatalog
 
             var database = new Database(connection, Database.DBType.SqlServer);
 
-            
-            var sourceDirectory = new DirectoryInfo(@"C:\Dropbox\Presentations\FileCatalog\Notepad++");
+
+            var sourceDirectory = new DirectoryInfo(@"C:\SuperSecretFilesThatINeedToAccessReallyFastButItsReallyNotepadPlusPlus");
 
 
             var files = sourceDirectory.GetFiles("*.*", SearchOption.AllDirectories)
@@ -26,17 +27,22 @@ namespace FileCatalog
 
             connection.Open();
 
-            foreach (var catalogedFile in files)
-            {
-                Console.WriteLine("Adding {0} to catalog.", catalogedFile.Path);
-                database.Insert(catalogedFile);
-            }
+            IndexFiles(database, files);
 
             connection.Close();
 
 
             Console.WriteLine("Done");
             Console.ReadLine();
+        }
+
+        private static void IndexFiles(Database database, IEnumerable<CatalogedFile> files)
+        {
+            foreach (var catalogedFile in files)
+            {
+                Console.WriteLine("Adding {0} to catalog.", catalogedFile.Path);
+                database.Insert(catalogedFile);
+            }
         }
     }
 
@@ -46,5 +52,5 @@ namespace FileCatalog
         public string FileName { get; set; }
         public string Path { get; set; }
         public long Size { get; set; }
-    }                                       
+    }
 }
